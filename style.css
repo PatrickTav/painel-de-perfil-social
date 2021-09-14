@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans";
+    overflow: visible;
+}
+
+:root{
+    
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+}
+
+.cont{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+body{
+    background-color: var(--Darkcyan);
+    
+}
+ 
+
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.backg{
+     width:300px;
+     height:120px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    
+    
+
+    
+}
+.follow, .like, .photos{
+    font-weight: 700;
+    font-size: 18px;
+}
+span{
+    color: var(--Darkgrayishblue);
+    margin-left: 5px;
+    font-weight: 400px;
+}
+
+.photo{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+h2{
+    margin-top: 70px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+div > span{
+    display: block;
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--Darkgray);
+
+    
+}
+p{
+    color: var(--Darkgray);
+    font-weight: 400px;
+    font-size: 12px;
+    
+}
+
+footer{
+    color: whitesmoke;
+}
+
+a{
+    position: relative;
+}
+
+
+.ballon , .ballon2{
+    position: absolute;
+}
+
+.ballon{
+    top: -600px;
+    left: -300px;
+}
+
+.ballon2{
+    right: -300px;
+    bottom: -600px;
+   
+}
+@media screen and (max-width: 700px){
+    .ballon{
+        top: -550px;
+        left: -545px;
+    }
+    
+    .ballon2{
+        right: -500px;
+        bottom: -600px; 
+       
+    }
+}
+
+@media screen and (max-width: 490px){
+    .ballon{
+        top: -495px;
+        left: -753px;
+    }
+    
+    .ballon2{
+        right: -629px;
+        bottom: -658px; 
+       
+    }
+}
