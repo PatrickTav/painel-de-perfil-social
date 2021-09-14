@@ -19,8 +19,7 @@ Esta é uma solução para o desafio do componente do cartão de perfil no Front
 
 ### Links
 
-- URL da solução: [Adicionar URL da solução aqui] (https://your-solution-url.com)
-- URL do site ativo: [Adicionar URL do site ativo aqui] (https://your-live-site-url.com)
+- URL do site ativo:(https://painel-de-perfil-social.vercel.app/)
 
 ## Meu processo
    Meu Processo de evolução e conhecimento foi abrangido após este desafio pois tive um desafio comigo mesmo para chegar à esse resultado, ou o mais perto possivel do ideal.
